@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <!-- START CONTAINER -->
+    <div class="container">
+
+        <!-- START CONTENT -->
+        <div class="content">
+
+            <!-- START HEADER -->
+            <div style="text-align: center;">
+                <h1>Work To-Dos</h1>
+                <p>Get your daily tasks done with a to-do list</p>
+            </div>
+            <!-- END HEADER -->
+
+            <!-- START TASKS TABLE -->
+                <div class="tasks">
+                    <!-- START ADD TASK -->
+                    <div class="add-task">
+                        <button id="add-btn" class="circule">
+                            <span class="material-symbols-outlined">
+                                add
+                                </span>
+                        </button>
+                        <div style="display: flex;justify-content: center;align-items: center;width: 100%;">
+                            <h3>task</h3>
+                        </div>
+                    </div>
+                    <!-- END ADD TASK -->
+
+                    <!-- START TASK -->
+                    <div id="task">
+                    </div>
+                    <!-- END TASK -->
+                </div>
+            <!-- END TASKS TABLE -->
+        </div>
+        <!-- END CONTENT -->
+
+        <!-- START PAGE ADD TASK -->
+        <div class="page text">
+            <div class="input">
+                <label>entre task name</label>
+                <br>
+                <input id="input" type="text" placeholder="Task Name...">
+            </div>
+            <div class="btn">
+                <button id="add">add</button>
+                <button id="cancel">cancel</button>
+            </div>
+            
+        </div>
+        <!-- END PAGE ADD TASK -->
+    </div>
+    <!-- END CONTAINER -->
+</body>
+<script src="main.js"></script>
+</html>
